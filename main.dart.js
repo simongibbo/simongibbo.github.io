@@ -56521,7 +56521,7 @@ case 1:return A.W(q,r)}})
 return A.X($async$pG,r)}}
 A.DX.prototype={
 H(a){var s=null
-return A.jd(s,A.Nt(B.JD,s,s),s,s,s,s,s,s)}}
+return A.jd(s,A.Nt(B.JB,s,s),s,s,s,s,s,s)}}
 A.Ev.prototype={
 H(a){return A.a9V(new A.XY(this),t.ma)},
 ME(a,b){var s,r,q,p,o=t.E,n=A.a([],o)
@@ -56534,7 +56534,7 @@ $C:"$3",
 $R:3,
 $S:340}
 A.zF.prototype={
-H(a){return A.abx(A.a9y(null,B.JC),A.a9V(new A.NV(this),t.s8),null,null)},
+H(a){return A.abx(A.a9y(null,B.JD),A.a9V(new A.NV(this),t.s8),null,null)},
 My(a,b){var s,r,q,p,o=null,n=A.a([],t.E)
 if(b!=null)for(s=b.a,r=s.length,q=0;q<s.length;s.length===r||(0,A.E)(s),++q){p=s[q]
 n.push(A.ri(o,A.a9Q(new A.e1(B.b3,A.aaM(o,A.F9(p.a)),o)),B.ao,!1,o,o,o,o,o,o,o,o,o,o,o,new A.NU(p,a),o,o,o,o,o,o))}return n}}
@@ -56554,7 +56554,7 @@ $S:6}
 A.lb.prototype={
 ad(){return new A.I8(new A.bs(null,t.gW),B.l)}}
 A.I8.prototype={
-H(a){var s=null,r=A.cA([B.Fo,B.Eu],t.cl),q=A.a9y(A.a([A.ri(B.c8,B.Ea,B.ao,!1,s,s,s,s,s,s,s,s,s,s,s,new A.a2O(a),s,s,s,s,s,s)],t.E),B.JB),p=this.d,o=A.jd(s,new A.qa(B.Bc,new A.a2P(this),p,s,s),s,s,B.vu,s,s,s)
+H(a){var s=null,r=A.cA([B.Fo,B.Eu],t.cl),q=A.a9y(A.a([A.ri(B.c8,B.Ea,B.ao,!1,s,s,s,s,s,s,s,s,s,s,s,new A.a2O(a),s,s,s,s,s,s)],t.E),B.JC),p=this.d,o=A.jd(s,new A.qa(B.Bc,new A.a2P(this),p,s,s),s,s,B.vu,s,s,s)
 return new A.vs(A.abx(q,r.aj(0,p),o,this.e),new A.a2Q(a),s)}}
 A.a2Q.prototype={
 $0(){A.ee("::::::::: Popping from my runs")
@@ -61007,9 +61007,9 @@ B.IL=new A.p(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Io=new A.p(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.Jy=new A.dc(B.I8,B.Jh,B.J0,B.GU,B.IT,B.I1,B.Jl,B.Hk,B.HL,B.IO,B.GP,B.J2,B.IR,B.IL,B.Io)
 B.Jz=new A.v5(1,"longestLine")
-B.JB=new A.iE("My Runs",null,null,null,null)
-B.JC=new A.iE("Competitions",null,null,null,null)
-B.JD=new A.iE("Rings View",null,null,null,null)
+B.JB=new A.iE("Rings View. Under construction...",null,null,null,null)
+B.JC=new A.iE("My Runs",null,null,null,null)
+B.JD=new A.iE("Competitions",null,null,null,null)
 B.Mf=new A.Fk(0,"system")
 B.JE=new A.v7(0)
 B.JF=new A.v7(0.5)
