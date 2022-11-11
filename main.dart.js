@@ -20341,8 +20341,8 @@ while(true)switch(s){case 0:s=2
 return A.t(A.EB("cookies-"+A.ajv(a)),$async$a4X)
 case 2:return A.A(null,r)}})
 return A.B($async$a4X,r)},
-aks(a,b){var s=null
-return A.o4(B.Bx,a,s,B.uT,B.FK,s,!0,s,s,10,!1,!1)},
+aks(a,b,c){var s=null
+return A.o4(B.Bx,a,s,B.uT,B.FK,s,!0,s,s,10,!1,c)},
 a4V(a,b){var s=0,r=A.C(t.GU),q,p,o,n
 var $async$a4V=A.D(function(c,d){if(c===1)return A.z(d,r)
 while(true)switch(s){case 0:p=t.N
@@ -20377,8 +20377,8 @@ case 1:return A.A(q,r)}})
 return A.B($async$Ja,r)},
 o4(a,b,c,d,e,a0,a1,a2,a3,a4,a5,a6){var s=0,r=A.C(t.Wd),q,p,o,n,m,l,k,j,i,h,g,f
 var $async$o4=A.D(function(a7,a8){if(a7===1)return A.z(a8,r)
-while(true)switch(s){case 0:if(!a5||!1)p=new A.pA(A.aM(t.Gf))
-else{p=A.asF()
+while(true)switch(s){case 0:if(!a5||a6){p=new A.pA(A.aM(t.Gf))
+if(a6)p.b=!0}else{p=A.asF()
 if(p==null)p=new A.pA(A.aM(t.Gf))}o=A.me(b)
 if(o.gcU()!=="http"&&o.gcU()!=="https")throw A.c(A.bj("invalid url, must start with 'http://' or 'https://' scheme (e.g. 'http://example.com')",null))
 n=A.me(b)
@@ -67422,7 +67422,7 @@ i.F(0,l)
 h=l
 J.avi(h,b.a,b.b.j(0),!0)
 h.responseType="arraybuffer"
-h.withCredentials=!1
+h.withCredentials=m.b
 b.r.Y(0,J.ava(l))
 k=new A.bf(new A.a4($.a1,t.EW),t.Bx)
 h=t.fg
@@ -68370,7 +68370,7 @@ rV(a){return this.Xk(a)},
 Xk(a){var s=0,r=A.C(t.l_),q,p
 var $async$rV=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:s=3
-return A.t(A.aks("https://adaa.com.au/comp/dt/myruns-2.php?comp="+a,!1),$async$rV)
+return A.t(A.aks("https://adaa.com.au/comp/dt/myruns-2.php?comp="+a,!1,!0),$async$rV)
 case 3:p=c
 A.a5_(p)
 q=A.awb(A.awc(B.av.cG(0,B.z.pA(0,p.w,!0))))
@@ -68391,7 +68391,7 @@ rX(a){return this.Xl(a)},
 Xl(a){var s=0,r=A.C(t.WC),q,p,o,n
 var $async$rX=A.D(function(b,c){if(b===1)return A.z(c,r)
 while(true)switch(s){case 0:s=3
-return A.t(A.aks("https://adaa.com.au/comp/dt/myruns-1.php?comp="+a,!1),$async$rX)
+return A.t(A.aks("https://adaa.com.au/comp/dt/myruns-1.php?comp="+a,!1,!1),$async$rX)
 case 3:n=c
 A.a5_(n)
 p=A.azc(B.av.cG(0,B.z.pA(0,n.w,!0)))
@@ -68413,7 +68413,7 @@ return A.B($async$Ck,r)},
 rW(){var s=0,r=A.C(t.Ew),q,p=this,o,n,m,l
 var $async$rW=A.D(function(a,b){if(a===1)return A.z(b,r)
 while(true)switch(s){case 0:s=3
-return A.t(A.aks("https://adaa.com.au/comp/dt/myruns-3.php",!1),$async$rW)
+return A.t(A.aks("https://adaa.com.au/comp/dt/myruns-3.php",!1,!0),$async$rW)
 case 3:l=b
 A.a5_(l)
 o=B.av.cG(0,B.z.pA(0,l.w,!0))
@@ -68452,7 +68452,7 @@ s=p}while(true)switch(s){case 0:p=4
 j=t.N
 i=A.at(["log",a,"pwd",b],j,j)
 s=7
-return A.t(A.o4(B.By,"https://adaa.com.au/access/",i,B.uT,A.w(j,j),null,!0,null,null,10,!0,!1),$async$vz)
+return A.t(A.o4(B.By,"https://adaa.com.au/access/",i,B.uT,A.w(j,j),null,!0,null,null,10,!0,!0),$async$vz)
 case 7:n=d
 A.a5_(n)
 j=n
